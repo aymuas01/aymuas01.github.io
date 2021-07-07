@@ -44,11 +44,11 @@
             <div></div>
         </a> -->
         <!-- <div id="myLinks"> -->
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+        <a href="#home" onclick="myFunction()">Home</a>
+        <a href="#about" onclick="myFunction()">About</a>
+        <a href="#skills" onclick="myFunction()">Skills</a>
+        <a href="#services" onclick="myFunction()">Services</a>
+        <a href="#contact" onclick="myFunction()">Contact</a>
         <!-- </div> -->
     </section>
 
@@ -200,7 +200,7 @@
 
         var menu = document.getElementById("menubar");
         var sidenav = document.getElementById("sidenav");
-        sidenav.style.width = "0px";
+        // sidenav.style.width = "0px";
         menu.onclick = function () {
             if (sidenav.style.width == "0px") {
                 sidenav.style.width = "250px";
